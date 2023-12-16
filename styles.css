@@ -1,0 +1,79 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+
+.header {
+    background-image: url(./hardcore-bg.jpg);
+    width: 100vw;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.header h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.whiteBox {
+    background-color: rgb(252, 234, 226);
+    width: 30vw;
+    height: 25vh;
+    position: relative;
+    bottom: 37vh;
+}
+
+.poster h1 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25rem;
+}
+
+.poster {
+    height: 50vh;
+}
+
+.vintage-poster {
+    width: 30vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    height: 50vh;
+    border: 1px solid white;
+}
+
+
+.firstLine {
+    clear:right;
+    display: flex;
+    gap: 10px;
+    margin: 10vh auto;
+    text-align: center;
+} 
+
+.secondLine {
+    clear:right;
+    display: flex;
+    margin: 10vh auto;
+    text-align: center;
+}
