@@ -15,30 +15,31 @@
     <div class="form-section">
         <div class="poster">
             <img class="vintage-poster" src="./vintage hardcore lineup poster.png" alt="vintage hardcore show lineup poster">
-            <div class="whiteBox"></div>
-            <h1>X</h1>
         </div>
         <form>
             <div class="column1">
                 <div class="firstName">
                     <label for="firstName">First Name:</label>
-                    <input id="firstName" type="text">
+                    <input id="firstName" type="text" required>
                 </div>
-                <div class="pass">
-                    <label for="pass">Password:</label>
-                    <input id="secondLine" type="text">
-                </div>
-            </div>
-            <div class="column2">
                 <div class="lastName">
                     <label for="lastName">Last Name:</label>
-                    <input id="lastName" type="text">
+                    <input id="lastName" type="text" required>
+                </div>   
+            </div>
+            <div class="column2">
+                <div class="pass">
+                    <label for="pass">Password:</label>
+                    <input id="secondLine" type="text" required>
                 </div>
+                
                 <div class="confpass">
                     <label for="confpass">Confirm Password:</label>
-                    <input id="confpass" type="text">
+                    <input id="confpass" type="text" required>
                 </div>
             </div>
+            <p>Want to keep up with the latest in the world of Hardcore music?</p>
+            <label for="submit">Sign Up Here</label><input type="submit">
         </form>
     </div>
 </body>
