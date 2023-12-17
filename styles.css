@@ -15,7 +15,7 @@ body {
     object-fit: cover;
 }
 
-.header h1 {
+.header * {
     font-size: 4rem;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
@@ -37,14 +37,17 @@ body {
     bottom: 37vh;
 }
 
-.poster h1 {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25rem;
-}
-
 .poster {
     height: 50vh;
+}
+
+.poster h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20rem;
+    position: relative;
+    bottom: 815px;
+    left: 45px;
 }
 
 .vintage-poster {
@@ -56,14 +59,13 @@ body {
 
 form {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     font-size: 1.5rem;
     height: 50vh;
-    border: 1px solid white;
 }
 
-
-.firstLine {
+.column1 {
     clear:right;
     display: flex;
     gap: 10px;
@@ -71,7 +73,7 @@ form {
     text-align: center;
 } 
 
-.secondLine {
+.column2 {
     clear:right;
     display: flex;
     margin: 10vh auto;
